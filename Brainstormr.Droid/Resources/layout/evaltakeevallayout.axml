@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="0sp">
+    <TextView
+        android:text="Take Eval Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#36648B"
+        android:padding="5dp"
+        android:id="@+id/takeeval_titlelabel" />
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        cardview:cardElevation="4dp"
+        cardview:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+        <!--<ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:id="@+id/evaldetail_imageView"
+          android:scaleType="centerCrop" />-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#333333"
+                android:text="Photo Title"
+                android:id="@+id/takeeval_text_category"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#333333"
+                android:text="Photo Title"
+                android:id="@+id/takeeval_text_subject"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#333333"
+                android:text="Photo Title"
+                android:id="@+id/takeeval_text_noofquestions"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#333333"
+                android:text="Photo Title"
+                android:id="@+id/takeeval_text_totalscore"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp" />
+            <Button
+                android:text="Continue"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_takeeval_continue"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:height="50dp"
+                android:paddingTop="2dp"
+                android:background="#F5F5F5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+        <!--<TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:textColor="#333333"
+          android:text="Photo Title"
+          android:id="@+id/evaldetail_text_year"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginLeft="5dp" />
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:textColor="#333333"
+          android:text="Photo Title"
+          android:id="@+id/evaldetail_text_duration"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginLeft="5dp" />
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:textColor="#333333"
+          android:text="Photo Title"
+          android:id="@+id/evaldetail_text_noofquestions"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginLeft="5dp" />-->
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="0sp">
+  <TextView
+      android:text="List Label"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="18sp"
+      android:textColor="#ffffff"
+      android:background="#36648B"
+      android:padding="5dp"
+      android:id="@+id/expertlistlabel" />
+  <ListView
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_marginTop="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/expert_listview" />
+</LinearLayout>

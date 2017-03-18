@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home_1"
+        android:icon="@drawable/ic_home_1"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_home_2"
+        android:icon="@drawable/ic_home_2"
+        android:title="Books" />
+    <item
+        android:id="@+id/nav_home_3"
+        android:icon="@drawable/ic_home_2"
+        android:title="Exams" />
+    <item
+        android:id="@+id/nav_home_4"
+        android:icon="@drawable/ic_home_2"
+        android:title="Ask-An-Expert" />
+    <item
+        android:id="@+id/nav_home_5"
+        android:icon="@drawable/ic_home_2"
+        android:title="Counselling" />
+    <item
+        android:id="@+id/nav_home_6"
+        android:icon="@drawable/ic_home_2"
+        android:title="My Account" />
+    <item
+        android:id="@+id/nav_home_7"
+        android:icon="@drawable/ic_home_2"
+        android:title="Login" />
+  </group>
+
+  <!--<item android:title="Sub items">
+    <menu>
+      <item
+          android:icon="@drawable/ic_home_1"
+          android:title="Sub item 1" />
+      <item
+          android:icon="@drawable/ic_home_2"
+          android:title="Sub item 2" />
+    </menu>
+  </item>-->
+
+</menu>

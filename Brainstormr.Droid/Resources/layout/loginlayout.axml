@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#FFFFFF">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:id="@+id/linearLayout1"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/txt_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#F5F5F5"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="25dp"
+                    android:hint="User Name"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000"
+                    android:cursorVisible="true"
+                    android:typeface="sans" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/txt_password"
+                    android:background="#F5F5F5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="Password"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000"
+                    android:layout_below="@id/txt_username"
+                    android:cursorVisible="true"
+                    android:typeface="sans" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:text="Log In"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_login"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:height="50dp"
+                android:paddingTop="2dp"
+                android:background="#F5F5F5"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txt_password"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:text="...."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F5F5F5"
+                android:textColor="#000000"
+                android:id="@+id/msgText" />
+        </LinearLayout>
+    </RelativeLayout>
+<!--<ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginprogressBar" />-->
+</LinearLayout>
